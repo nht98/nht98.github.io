@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>flutter on TBM98&#39;s Blog</title>
+    <link>https://tbm98.github.io/tags/flutter/</link>
+    <description>Recent content in flutter on TBM98&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>tbm98.dev@gmail.com (tbm98)</managingEditor>
+    <webMaster>tbm98.dev@gmail.com (tbm98)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 24 Apr 2020 14:11:02 +0700</lastBuildDate>
+    
+        <atom:link href="https://tbm98.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Sử dụng chung ChangeNotifier cho nhiều page trong Flutter</title>
+        <link>https://tbm98.github.io/posts/su-dung-chung-changenotifier-cho-nhieu-page-flutter/</link>
+        <pubDate>Fri, 24 Apr 2020 14:11:02 +0700</pubDate>
+        <author>tbm98.dev@gmail.com (tbm98)</author>
+        <atom:modified>Tue, 02 Jun 2020 16:44:14 +0700</atom:modified>
+        <guid>https://tbm98.github.io/posts/su-dung-chung-changenotifier-cho-nhieu-page-flutter/</guid>
+        <description>Vấn đề ? Mình có 1 page là profile và login, ở profile mình sử dụng ChangeNotifierProvider để cung cấp một lớp ChangeNotifier (tạm gọi là lớp state) có nhiệm vụ lưu giữ thông tin user hiện tại. Trong trường hợp chưa đăng nhập thì sẽ hiển thị nút đăng nhập yêu cầu chuyển sang page login để người dùng đăng nhập. Sau khi đăng nhập xong sẽ pop quay trở lại page profile.</description>
+        
+        <dc:creator>tbm98</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>flutter</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
